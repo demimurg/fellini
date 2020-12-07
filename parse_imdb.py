@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from tqdm import tqdm
-from dotenv import load_dotenv
 import os
 
 
@@ -10,7 +9,7 @@ top250url = lambda tok: "https://imdb-api.com/API/Top250Movies/" + tok
 movie_url = lambda tok, idx: "https://imdb-api.com/en/API/Title/" + tok + "/" + idx
 reviews_url = lambda idx: "https://www.imdb.com/title/" + idx + "/reviews"
 
-load_dotenv()
+
 tokens = os.getenv("TOKENS").split(", ")
 output_file = "yoohoo.csv"
 reviews_max_number = 10
@@ -66,4 +65,7 @@ def main():
 
 
 if __name__ == "__main__":
+    from dotenv import load_dotenv
+    load_dotenv()
+    
     main()
