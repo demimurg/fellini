@@ -4,7 +4,7 @@ This is a small research project to solve the problem of searching for movies by
 
 # Examples🧐
 
-| Request | Response |
+| Query | Movies |
 | ------ | ------ |
 | `"Фильмы про вторую мировую войну"` | [`Иди и смотри`][goandsee] [`А зори здесь тихие`][zori] [`В бой идут одни старики`][stariki] [`Могила светлячков`][svetlyachki] |
 | `"Снято Квентином Тарантино"` | [`Бешеные псы`][psi] [`Джанго освобожденный`][django] [`Криминальное чтиво`][chtivo] |
@@ -43,6 +43,7 @@ This is a small research project to solve the problem of searching for movies by
 
 - Open notebook in [google colab](https://colab.research.google.com/github/madmaxeatfax/fellini/blob/master/search.ipynb)
 - Choose language for search (russian default)
-- Run all cells - Cmd/Ctrl + F9, scroll down to the last
+- Run all cells - Cmd/Ctrl + F9
+- Scroll down to the last ceil, wait ~60sec
 - Edit query and run - Cmd/Ctrl + Enter
-- Repeat last step until you'll be satisfied👌
+- Repeat last step until you get bored👌
