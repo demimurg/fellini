@@ -11,7 +11,7 @@ reviews_url = lambda idx: "https://www.imdb.com/title/" + idx + "/reviews"
 
 
 tokens = os.getenv("TOKENS").split(", ")
-output_file = "yoohoo.csv"
+output_file = "../datasets/yoohoo.csv"
 reviews_max_number = 10
 
 
@@ -38,7 +38,7 @@ def main():
 
     df = pd.DataFrame(columns=[
         "ID", "Title", "Year",
-        "Crew", "Plot", "Tags",
+        "Crew", "Plot", "Meta",
         "Duration", "Rating",
         "Genre", "Country", "Reviews"
     ])
