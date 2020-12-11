@@ -48,8 +48,8 @@ This is a small research project to solve the problem of searching for movies by
 - Edit query and run - Cmd/Ctrl + Enter
 - Repeat last step until you get bored👌
 
-<p align="center">
+<p align="left">
   <a href="https://colab.research.google.com/github/madmaxeatfax/fellini/blob/master/search.ipynb">
-    <img src="datasets/fellini.gif" title="Setup process" height=500>
+    <img src="datasets/fellini.gif" title="Setup process" height=400>
    </a>
 </p>
