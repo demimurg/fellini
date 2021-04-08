@@ -1,6 +1,6 @@
 # FELLINI [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/demimurg/fellini/blob/master/search.ipynb)
 
-This is a small research project to solve the problem of searching for movies by plot description, as well as just by queries in a free, natural form. The model always offers five options closest to the search query. It uses [kinopoisk-top-250](https://www.kinopoisk.ru/lists/top250/?tab=all) or [imdb-top-250](https://www.imdb.com/chart/top/) movies dataset (depends on language you choose)
+This is a small research project to solve the problem of searching for movies by plot description, as well as just by relevant queries in a free, natural form. The model always(!) offers five options closest to the search query. It uses [kinopoisk-top-250](https://www.kinopoisk.ru/lists/top250/?tab=all) or [imdb-top-250](https://www.imdb.com/chart/top/) movies dataset only (depends on language you choose)
 
 # Examples🧐
 
